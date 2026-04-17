@@ -1,132 +1,85 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="汪聪个人学术主页 / Wang Cong Academic Homepage">
+  <meta name="keywords" content="Wang Cong, 光通信, 大模型, Agent, Academic Homepage">
+  <meta name="author" content="Wang Cong">
   <title>汪聪 | Wang Cong</title>
-  <meta name="description" content="Wang Cong academic homepage" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <div class="lang-bar">
+<body id="top" class="lang-zh">
+  <div class="lang-switch">
     <button id="btn-zh" class="lang-btn active" type="button">中文</button>
     <button id="btn-en" class="lang-btn" type="button">English</button>
   </div>
 
-  <div id="content-zh" class="lang-content">
-    <table class="main-table">
-      <tr>
-        <td class="bio-cell">
-          <p class="name">汪聪</p>
-          <p>博士研究生（信息与通信工程）</p>
-          <p>上海交通大学（2026.09 - 至今）</p>
-          <p>2004.05.25 出生，江西人</p>
-          <p>
-            <a href="#zh-education">教育经历</a> &nbsp;/&nbsp;
-            <a href="#zh-research">研究方向</a> &nbsp;/&nbsp;
-            <a href="#zh-publications">论文</a> &nbsp;/&nbsp;
-            <a href="https://github.com/txyltop" target="_blank" rel="noopener noreferrer">GitHub</a>
-          </p>
-        </td>
-        <td class="photo-cell">
-          <img src="assets/images/个人证件照.JPG" alt="汪聪" class="photo" />
-        </td>
-      </tr>
-    </table>
+  <header>
+    <div class="header-content">
+      <h1 class="zh">汪聪</h1>
+      <h1 class="en">Wang Cong</h1>
 
-    <div class="section" id="zh-education">
-      <h2>教育经历</h2>
-      <p>上海交通大学，信息与通信工程，博士在读（2026.09 - 至今）</p>
-      <p>吉林大学，电子信息工程，本科（2022.09 - 2026.07）</p>
+      <p class="zh">上海交通大学博士研究生 • 信息与通信工程</p>
+      <p class="en">PhD Student at Shanghai Jiao Tong University • Information and Communication Engineering</p>
+
+      <div class="social-links-header zh">
+        <a href="#education"><i class="fas fa-university"></i>教育经历</a>
+        <a href="#research"><i class="fas fa-lightbulb"></i>研究方向</a>
+        <a href="#publications"><i class="fas fa-file-alt"></i>论文</a>
+        <a href="https://github.com/txyltop" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i>GitHub</a>
+      </div>
+
+      <div class="social-links-header en">
+        <a href="#education"><i class="fas fa-university"></i>Education</a>
+        <a href="#research"><i class="fas fa-lightbulb"></i>Research</a>
+        <a href="#publications"><i class="fas fa-file-alt"></i>Publications</a>
+        <a href="https://github.com/txyltop" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i>GitHub</a>
+      </div>
     </div>
-
-    <div class="section" id="zh-research">
-      <h2>研究方向</h2>
-      <p>大模型/智能体在光通信垂直领域的应用。</p>
+    <div class="header-image">
+      <img src="images/profile.jpg" alt="Wang Cong Profile Photo">
     </div>
+  </header>
 
-    <div class="section" id="zh-publications">
-      <h2>论文</h2>
-      <p>
-        SCL_LLM
-        [<a href="assets/pdf/SCL_LLM.pdf" target="_blank" rel="noopener noreferrer">PDF</a>]
-      </p>
-    </div>
-  </div>
+  <main>
+    <section id="about">
+      <p class="zh">2004 年 5 月 25 日出生，江西人。现为上海交通大学信息与通信工程博士研究生。</p>
+      <p class="en">Born on May 25, 2004, from Jiangxi, China. Currently a PhD student in Information and Communication Engineering at Shanghai Jiao Tong University.</p>
+    </section>
 
-  <div id="content-en" class="lang-content hidden">
-    <table class="main-table">
-      <tr>
-        <td class="bio-cell">
-          <p class="name">Wang Cong</p>
-          <p>PhD Student (Information and Communication Engineering)</p>
-          <p>Shanghai Jiao Tong University (Sep 2026 - Present)</p>
-          <p>Born on May 25, 2004. From Jiangxi, China.</p>
-          <p>
-            <a href="#en-education">Education</a> &nbsp;/&nbsp;
-            <a href="#en-research">Research</a> &nbsp;/&nbsp;
-            <a href="#en-publications">Publications</a> &nbsp;/&nbsp;
-            <a href="https://github.com/txyltop" target="_blank" rel="noopener noreferrer">GitHub</a>
-          </p>
-        </td>
-        <td class="photo-cell">
-          <img src="assets/images/个人证件照.JPG" alt="Wang Cong" class="photo" />
-        </td>
-      </tr>
-    </table>
+    <section id="education">
+      <h2 class="zh">教育经历</h2>
+      <h2 class="en">Education</h2>
+      <p class="zh"><strong>上海交通大学</strong>，信息与通信工程，博士在读（2026.09 - 至今）</p>
+      <p class="en"><strong>Shanghai Jiao Tong University</strong>, PhD in Information and Communication Engineering (Sep 2026 - Present)</p>
+      <p class="zh"><strong>吉林大学</strong>，电子信息工程，本科（2022.09 - 2026.07）</p>
+      <p class="en"><strong>Jilin University</strong>, B.Eng. in Electronic Information Engineering (Sep 2022 - Jul 2026)</p>
+    </section>
 
-    <div class="section" id="en-education">
-      <h2>Education</h2>
-      <p>Shanghai Jiao Tong University, PhD in Information and Communication Engineering (Sep 2026 - Present)</p>
-      <p>Jilin University, B.Eng. in Electronic Information Engineering (Sep 2022 - Jul 2026)</p>
-    </div>
+    <section id="research">
+      <h2 class="zh">研究方向</h2>
+      <h2 class="en">Research Interests</h2>
+      <p class="zh">大模型/智能体在光通信垂直领域的应用。</p>
+      <p class="en">Applications of large models and intelligent agents in the optical communication domain.</p>
+    </section>
 
-    <div class="section" id="en-research">
-      <h2>Research Interests</h2>
-      <p>Applications of large models and intelligent agents in the optical communication domain.</p>
-    </div>
+    <section id="publications">
+      <div class="publications-header">
+        <h2 id="toggle-header" class="zh">论文</h2>
+        <h2 id="toggle-header-en" class="en">Publications</h2>
+      </div>
+      <div id="publications-container"></div>
+    </section>
+  </main>
 
-    <div class="section" id="en-publications">
-      <h2>Publications</h2>
-      <p>
-        SCL_LLM
-        [<a href="assets/pdf/SCL_LLM.pdf" target="_blank" rel="noopener noreferrer">PDF</a>]
-      </p>
-    </div>
-  </div>
+  <footer>
+    <p class="zh">最后更新：2026 年 4 月 17 日。模板来源：<a href="https://github.com/yuhui-zh15/Minimal-Academic-Website" target="_blank" rel="noopener noreferrer">Minimal Academic Website</a>。</p>
+    <p class="en">Last updated: April 17, 2026. Template source: <a href="https://github.com/yuhui-zh15/Minimal-Academic-Website" target="_blank" rel="noopener noreferrer">Minimal Academic Website</a>.</p>
+  </footer>
 
-  <div class="footer">Last updated: April 17, 2026</div>
-
-  <script>
-    (function () {
-      var btnZh = document.getElementById('btn-zh');
-      var btnEn = document.getElementById('btn-en');
-      var zh = document.getElementById('content-zh');
-      var en = document.getElementById('content-en');
-
-      function setLang(lang) {
-        if (lang === 'en') {
-          zh.classList.add('hidden');
-          en.classList.remove('hidden');
-          btnZh.classList.remove('active');
-          btnEn.classList.add('active');
-          document.documentElement.lang = 'en';
-        } else {
-          en.classList.add('hidden');
-          zh.classList.remove('hidden');
-          btnEn.classList.remove('active');
-          btnZh.classList.add('active');
-          document.documentElement.lang = 'zh-CN';
-        }
-        localStorage.setItem('site_lang', lang);
-      }
-
-      btnZh.addEventListener('click', function () { setLang('zh'); });
-      btnEn.addEventListener('click', function () { setLang('en'); });
-
-      var saved = localStorage.getItem('site_lang');
-      setLang(saved === 'en' ? 'en' : 'zh');
-    })();
-  </script>
+  <script src="scripts.js"></script>
 </body>
 </html>

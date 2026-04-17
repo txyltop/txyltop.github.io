@@ -1,0 +1,12 @@
+{
+  "publications": [
+    {
+      "title": "SCL_LLM",
+      "authors": "Wang Cong",
+      "venue_zh": "论文（2026）",
+      "venue_en": "Publication (2026)",
+      "thumbnail": "images/thumbs/1.jpg",
+      "pdf": "assets/pdf/SCL_LLM.pdf"
+    }
+  ]
+}
