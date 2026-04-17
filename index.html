@@ -1,139 +1,62 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="汪聪个人学术主页 / Wang Cong Academic Homepage">
-  <meta name="keywords" content="Wang Cong, 光通信, 大模型, Agent, Academic Homepage">
-  <meta name="author" content="Wang Cong">
-  <title>汪聪 | Wang Cong</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;500;600&display=swap">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>汪聪 | 学术主页</title>
+  <meta name="description" content="汪聪的个人学术主页" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-<body id="top" class="lang-zh">
-  <div class="lang-switch">
-    <button id="btn-zh" class="lang-btn active" type="button">中文</button>
-    <button id="btn-en" class="lang-btn" type="button">English</button>
-  </div>
-
-  <header>
-    <div class="header-content">
-      <h1 class="zh">汪聪</h1>
-      <h1 class="en">Wang Cong</h1>
-
-      <p class="zh">上海交通大学博士研究生 • 信息与通信工程</p>
-      <p class="en">PhD Student at Shanghai Jiao Tong University • Information and Communication Engineering</p>
-
-      <div class="social-links-header zh">
-        <a href="#education"><i class="fas fa-university"></i>教育经历</a>
-        <a href="#research"><i class="fas fa-lightbulb"></i>研究方向</a>
-        <a href="#news"><i class="fas fa-bullhorn"></i>新闻</a>
-        <a href="#publications"><i class="fas fa-file-alt"></i>论文</a>
-        <a href="#awards"><i class="fas fa-award"></i>获奖</a>
-        <a href="#contact"><i class="fas fa-envelope"></i>邮箱</a>
-        <a href="https://github.com/txyltop" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i>GitHub</a>
+<body>
+  <div class="page">
+    <div class="intro">
+      <div class="photo-wrap">
+        <img src="assets/images/个人证件照.JPG" alt="汪聪" class="photo" />
       </div>
-
-      <div class="social-links-header en">
-        <a href="#education"><i class="fas fa-university"></i>Education</a>
-        <a href="#research"><i class="fas fa-lightbulb"></i>Research</a>
-        <a href="#news"><i class="fas fa-bullhorn"></i>News</a>
-        <a href="#publications"><i class="fas fa-file-alt"></i>Publications</a>
-        <a href="#awards"><i class="fas fa-award"></i>Awards</a>
-        <a href="#contact"><i class="fas fa-envelope"></i>Email</a>
-        <a href="https://github.com/txyltop" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i>GitHub</a>
+      <div class="bio">
+        <h1>汪聪</h1>
+        <p>
+          博士研究生（信息与通信工程）<br />
+          上海交通大学（2026.09 - 至今）
+        </p>
+        <p>
+          2004.05.25 出生，江西人。
+        </p>
+        <p>
+          <a href="#education">教育经历</a> &nbsp;/&nbsp;
+          <a href="#research">研究方向</a> &nbsp;/&nbsp;
+          <a href="#publications">论文</a> &nbsp;/&nbsp;
+          <a href="https://github.com/txyltop" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </p>
       </div>
     </div>
-    <div class="header-image">
-      <img src="images/profile.jpg" alt="Wang Cong Profile Photo">
-    </div>
-  </header>
 
-  <main>
-    <section id="about">
-      <p class="zh">2004 年 5 月 25 日出生，江西人。现为上海交通大学信息与通信工程博士研究生。</p>
-      <p class="en">Born on May 25, 2004, from Jiangxi, China. Currently a PhD student in Information and Communication Engineering at Shanghai Jiao Tong University.</p>
-    </section>
-
-    <section id="education">
-      <h2 class="zh">教育经历</h2>
-      <h2 class="en">Education</h2>
-      <div class="edu-item zh">
-        <img src="images/sjtu-logo.png" alt="上海交通大学校徽" class="edu-logo">
-        <p><strong>上海交通大学</strong>，信息与通信工程，博士在读（2026.09 - 至今）</p>
-      </div>
-      <div class="edu-item en">
-        <img src="images/sjtu-logo.png" alt="Shanghai Jiao Tong University Emblem" class="edu-logo">
-        <p><strong>Shanghai Jiao Tong University</strong>, PhD in Information and Communication Engineering (Sep 2026 - Present)</p>
-      </div>
-
-      <div class="edu-item zh">
-        <img src="images/jlu-logo.jpg" alt="吉林大学校徽" class="edu-logo">
-        <p><strong>吉林大学</strong>，电子信息工程，本科（2022.09 - 2026.07）</p>
-      </div>
-      <div class="edu-item en">
-        <img src="images/jlu-logo.jpg" alt="Jilin University Emblem" class="edu-logo">
-        <p><strong>Jilin University</strong>, B.Eng. in Electronic Information Engineering (Sep 2022 - Jul 2026)</p>
-      </div>
-    </section>
-
-    <section id="research">
-      <h2 class="zh">研究方向</h2>
-      <h2 class="en">Research Interests</h2>
-      <p class="zh">大模型/智能体在光通信垂直领域的应用。</p>
-      <p class="en">Applications of large models and intelligent agents in the optical communication domain.</p>
-    </section>
-
-    <section id="publications">
-      <div class="publications-header">
-        <h2 id="toggle-header" class="zh">论文</h2>
-        <h2 id="toggle-header-en" class="en">Publications</h2>
-      </div>
-      <div id="publications-container"></div>
-    </section>
-
-    <section id="news">
-      <h2 class="zh">新闻</h2>
-      <h2 class="en">News</h2>
-      <ul class="news-list zh">
-        <li>2026.04：个人学术主页上线，并完成中英文版本。</li>
-        <li>2026.04：论文《Efficient Multi-Agent Optimization of Optical Power in S+C+L-Band Systems》上线。</li>
-      </ul>
-      <ul class="news-list en">
-        <li>Apr 2026: Personal academic homepage launched with bilingual support.</li>
-        <li>Apr 2026: Paper “Efficient Multi-Agent Optimization of Optical Power in S+C+L-Band Systems” released.</li>
-      </ul>
-    </section>
-
-    <section id="awards">
-      <h2 class="zh">获奖</h2>
-      <h2 class="en">Awards</h2>
-      <div class="award-item zh">
-        <span class="award-year">待更新</span>
-        <div class="award-desc">获奖信息待补充</div>
-      </div>
-      <div class="award-item en">
-        <span class="award-year">TBD</span>
-        <div class="award-desc">Award information to be updated</div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2 class="zh">邮箱</h2>
-      <h2 class="en">Email</h2>
+    <div class="section" id="education">
+      <h2>教育经历</h2>
       <p>
-        <a href="mailto:wangcongtxyl@sjtu.edu.cn">wangcongtxyl@sjtu.edu.cn</a><br>
-        <a href="mailto:wc2501085008@163.com">wc2501085008@163.com</a>
+        <strong>上海交通大学</strong>，信息与通信工程，博士在读（2026.09 - 至今）<br />
+        <strong>吉林大学</strong>，电子信息工程，本科（2022.09 - 2026.07）
       </p>
-    </section>
-  </main>
+    </div>
 
-  <footer>
-    <p class="zh">最后更新：2026 年 4 月 17 日。模板来源：<a href="https://github.com/yuhui-zh15/Minimal-Academic-Website" target="_blank" rel="noopener noreferrer">Minimal Academic Website</a>。</p>
-    <p class="en">Last updated: April 17, 2026. Template source: <a href="https://github.com/yuhui-zh15/Minimal-Academic-Website" target="_blank" rel="noopener noreferrer">Minimal Academic Website</a>.</p>
-  </footer>
+    <div class="section" id="research">
+      <h2>研究方向</h2>
+      <p>大模型/智能体在光通信垂直领域的应用：如智能体自动优化链路功率，容量优化，光网络运维等。</p>
+    </div>
 
-  <script src="scripts.js"></script>
+    <div class="section" id="publications">
+      <h2>论文</h2>
+      <ul>
+        <li>
+          Efficient Multi-Agent Optimization of Optical Power in S+C+L-Band Systems
+          [<a href="assets/pdf/SCL_LLM.pdf" target="_blank" rel="noopener noreferrer">PDF</a>]
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      Last updated: April 17, 2026
+    </div>
+  </div>
 </body>
 </html>
