@@ -194,6 +194,10 @@ section {
   text-decoration: underline;
 }
 
+.research-text {
+  margin: 0;
+}
+
 .news-list {
   margin: 0.4rem 0 0;
   padding-left: 1.1rem;
