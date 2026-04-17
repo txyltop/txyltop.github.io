@@ -173,6 +173,31 @@ section {
   text-decoration: underline;
 }
 
+.news-list {
+  margin: 0.4rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.news-list li {
+  margin-bottom: 0.45rem;
+}
+
+.award-item {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 0.4rem;
+}
+
+.award-year {
+  font-weight: 500;
+  color: var(--accent-color);
+  flex: 0 0 70px;
+}
+
+.award-desc {
+  flex: 1;
+}
+
 a {
   color: var(--accent-color);
   text-decoration: none;
