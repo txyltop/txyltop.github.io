@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function loadPublications() {
-  fetch('publications.json')
+  fetch('publications.json?v=20260419')
     .then(function (response) {
       if (!response.ok) {
         throw new Error('Network response was not ok: ' + response.status);
